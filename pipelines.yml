@@ -3,7 +3,7 @@ valuesFilePath: ./values.yml
 
 resources:
   - name: mvn_repo
-    type: GitHub
+    type: GitRepo
     configuration:
       path: {{ .Values.repoPath }}
       gitProvider: {{ .Values.gitProvider }}
